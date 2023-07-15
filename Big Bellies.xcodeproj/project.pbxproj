@@ -47,6 +47,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		783D015F2A630E11005C2BEC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				78F1C8F62A59DC3900D3EA13 /* BeerDetailsViewController.swift */,
+				78F6F56C2A51D28500E9E378 /* DevAboutViewController.swift */,
+				78C2D3372A507BDF00663E28 /* SettingsViewController.swift */,
+				E6846C052A4217490018E2FC /* MenuViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		783D01612A630E60005C2BEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				787E7A102A546F88004FF317 /* BeerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		783D01622A630E78005C2BEC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				78A5D7062A61BB8300B84986 /* BarManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		E6846BF52A4217490018E2FC = {
 			isa = PBXGroup;
 			children = (
@@ -66,14 +93,11 @@
 		E6846C002A4217490018E2FC /* Big Bellies */ = {
 			isa = PBXGroup;
 			children = (
+				783D01622A630E78005C2BEC /* Services */,
+				783D01612A630E60005C2BEC /* Models */,
+				783D015F2A630E11005C2BEC /* ViewController */,
 				E6846C012A4217490018E2FC /* AppDelegate.swift */,
-				787E7A102A546F88004FF317 /* BeerModel.swift */,
 				E6846C032A4217490018E2FC /* SceneDelegate.swift */,
-				E6846C052A4217490018E2FC /* MenuViewController.swift */,
-				78C2D3372A507BDF00663E28 /* SettingsViewController.swift */,
-				78F6F56C2A51D28500E9E378 /* DevAboutViewController.swift */,
-				78F1C8F62A59DC3900D3EA13 /* BeerDetailsViewController.swift */,
-				78A5D7062A61BB8300B84986 /* BarManager.swift */,
 				E6846C0A2A42174A0018E2FC /* Assets.xcassets */,
 				E6846C0C2A42174A0018E2FC /* LaunchScreen.storyboard */,
 				38CB803F2A438223008456AF /* Main.storyboard */,
