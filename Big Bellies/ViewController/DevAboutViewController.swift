@@ -16,7 +16,7 @@ class DevAboutViewController: UIViewController {
     }
 
     @IBAction func OpenTG(_ sender: Any) {
-        let tgUrl = URL(string: "https://t.me/@herobrineee")!
+        let tgUrl = URL(string: "https://t.me/@nazaruses")!
         
         UIApplication.shared.open(tgUrl)
     }
